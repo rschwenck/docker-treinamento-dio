@@ -1,8 +1,8 @@
 ﻿window.addEventListener('DOMContentLoaded', getWeather);
 
 function getWeather() {
-  // Substitua 'YOUR_API_KEY' pela sua chave de API do OpenWeatherMap
-  const apiKey = '6b0271ab6bbee1b6d15c52f75497461b';
+  
+  const apiKey = 'YOUR_API_KEY';
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=São Paulo&appid=${apiKey}&units=metric`;
 
   fetch(apiUrl)
